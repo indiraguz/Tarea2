@@ -1,0 +1,131 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 5 jun 2024, 20:35:14
+    Author     : indir
+*/
+body{
+    background-color: bisque;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+
+}
+
+header{
+     background-color: rgb(123,202,197);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
+}
+
+.header{
+    background-color:rgb(255, 192, 203);
+    position: fixed;
+    background-color: rgb(200,50,155);
+    color: white;
+    top: 0;
+    width: 100%;
+    height: 100px;
+}
+aside{
+    background-color: rgb(202,100,197);
+    position: fixed;
+    top: 100px ;
+    left: 0;
+    width: 1000%;
+    height: 1000px;
+    bottom: 20px;
+    width: 15%;
+    text-align: center;
+    text-justify: auto;
+
+}
+.formulario{
+    
+     text-align: justify-all;
+     font-family: monospace;
+    
+}
+
+section{
+    background-color: bisque;
+    position: fixed;
+    top: 100px ;
+    left:15%;
+    bottom: 30px;
+    width: 83%;
+    padding: 20px;
+    overflow-y: scroll
+}
+ 
+footer{
+   text-align: center;
+    background-color: black;
+    position: fixed;
+    color: white;
+    left:0;
+    bottom:0; 
+    width: 100%;
+   height: 20px;
+   
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+section {
+    position: fixed;
+    background-color: bisque;
+}
+
+.nav-link{
+    color: white;
+    top: 0;
+    left: 20%;
+    width: 80%;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.Item{
+     font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 100px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 100px;
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 100px;
+
+}
+
+.nav-menu-link:hover{
+    background-color: black; 
+    transition: 0.5s;
+}
+.nav-menu-link{
+padding: 8px 12px; 
+border-radius: 8px;
+}
+

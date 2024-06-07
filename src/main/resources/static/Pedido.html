@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--Mi primera pagina html-->
+
+
+<html>
+    <head>
+        <title>Dulce Creación</title>
+        <meta charset="UTF-8"/>
+
+    </head>
+    <body>
+
+        <header class="header"> 
+            <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+            <nav class="nav">  
+                <a class="nav-link logo" href="index.html"> Dulce Creacion</a>
+                <ul class = "nav-menu">
+                    <li class="nav-menu-item"><a  class="nav-link nav-menu-link" href="Receta3.html">&triangleleft; </a></li>
+                    <li class="nav-menu-item"><a >Recetas </a></li>
+                    <li class="nav-menu-item"> <a class="nav-link nav-menu-link" href="Receta1.html">&triangleright;</a> </li>
+                    <li class="nav-menu-item"> <a class="nav-link nav-menu-link" href="Tutoriales.html">Tutoriales</a> </li>
+                    <li class="nav-menu-item"> <a class="nav-link nav-menu-link" href="Utensilios.html">Utensilios</a> </li>
+                    <li class="nav-menu-item"> <a class="nav-link nav-menu-link" href="Pedido.html">Pedidos</a> </li>
+                    <li class="nav-menu-item"><a  class="nav-link nav-menu-link" href="SobreNosotros.html">Nosotros</a></li>
+                </ul>
+            </nav>
+
+        </header>
+        <aside>
+            <h1>Contactanos</h1>
+            
+        </aside>
+        
+        <section class="formulario">
+            <h2>¿Tienes alguna duda o quieres realizar un pedido?</h2>
+            <p> Llena el formulario y con gusto te responderé a la brevedad</p>
+            <article > 
+                <h3>Formulario</h3>
+                <form method= "post" action="propiedad/incluir">
+                    Nombre:<input type="text" name="nombre" value="" /><br>
+                    <br/>
+
+                    Correo : <input type="email" name="correo" value="" /><br> <br/>
+
+                    Telefono:<input type="text" name="Telefono" value="" /> <br> <br/>
+
+                    Cuidad: <input type="text" name="Ciudad" value="" /> <br> <br/>
+
+                    Opciones:<select name="Opciones">
+                        <option>Realizar un pedido</option>
+                        <option>Realizar una consulta</option>
+                        <option>Realizar una queja</option>
+                    </select> <br> <br/>
+                    
+                    Descripcion del detalle:<br/>
+                    <textarea name="Informacion" rows="4" cols="20">
+                    </textarea>
+                    <input type="submit" value="Enviar" />
+                </form>
+
+
+            </article>
+
+        </section>
+        <footer>asdfa&COPY;</footer>
+
+
+
+    </body>
+</html>
