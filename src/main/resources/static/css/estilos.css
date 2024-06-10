@@ -23,18 +23,22 @@ header{
 
 }
 .Titulos{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
 
     font-family: initial;
     color: brown;
     text-decoration: none;
 }
+.Recetas{
+    text-align: center; 
+    text-justify: auto;
+    left:16%;
+}
 
 .header{
     background-color:#E2B6CF;
     position: fixed;
-
     color: black;
     top: 0;
     width: 100%;
