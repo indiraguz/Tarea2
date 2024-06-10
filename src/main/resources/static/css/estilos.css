@@ -16,6 +16,7 @@ body{
 
 header{
      background-color: #E2B6CF;
+     color: black;
     position: fixed;
     top: 0;
     width: 100%;
@@ -26,7 +27,7 @@ header{
     background-color:#E2B6CF;
     position: fixed;
    
-    color: white;
+    color: black;
     top: 0;
     width: 100%;
     height: 100px;
@@ -38,29 +39,35 @@ aside{
     left: 0;
     width: 900%;
     height: 900px;
-    bottom: 20px;
-    width: 15%;
+    bottom: 25px;
+    width: 13%;
     text-align: center;
     text-justify: auto;
+    
 
 }
 .formulario{
     
-     text-align: justify-all;
+     text-align: center;
+     text-justify: auto;
+     
      font-family:sans-serif;
-     size: 30px;
+   
+     
     
 }
 
+
 section{
-    background-color: rgb(246, 239, 238);
+    background-color: bisque;
     position: fixed;
     top: 100px ;
     left:15%;
     bottom: 30px;
     width: 83%;
     padding: 20px;
-    overflow-y: scroll
+    overflow-y: scroll;
+        text-align: justify;
 }
  
 footer{
@@ -74,20 +81,23 @@ footer{
    height: 20px;
    
 }
+.Nosotros{
+    text-align: center;
+   
+    
+}
 
 .nav{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    color:black;
 
 }
-section {
-    position: fixed;
-    background-color: bisque;
-}
+
 
 .nav-link{
-    color: white;
+    color: black;
     top: 0;
     left: 20%;
     width: 80%;
@@ -117,7 +127,7 @@ section {
 }
 
 .nav-menu-link:hover{
-    background-color: black; 
+    background-color: pink; 
     transition: 0.5s;
 }
 .nav-menu-link{
